@@ -24,9 +24,9 @@ describe('POST @ /user/register endpoint', () => {
       const res = axios.post(
         'http://localhost:5000/user/register',
         {
-          name: 'Thushara Thiwanka',
-          username: 'thushara',
-          email: 'thushara@gmail.com',
+          name: 'Gamitha Manawadu',
+          username: 'gamitha',
+          email: 'gamitha@gmail.com',
           role: 'worker',
         },
         {
@@ -50,9 +50,9 @@ describe('POST @ /user/register endpoint', () => {
       const res = axios.post(
         'http://localhost:5000/user/register',
         {
-          name: 'Thushara Thiwanka',
-          username: 'thushara',
-          email: 'thushara@gmail.com',
+          name: 'Gamitha Manawadu',
+          username: 'gamitha',
+          email: 'gamitha@gmail.com',
           role: 'manager',
         },
         {

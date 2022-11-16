@@ -5,7 +5,7 @@ describe('POST @ /admin/login endpoint', () => {
     try {
       const res = axios.post('http://localhost:5000/admin/login', {
         username: 'gamitha@admin',
-        password: 'nan123',
+        password: 'na123',
       });
 
       expect(res.status).toEqual(200);
